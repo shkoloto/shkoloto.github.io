@@ -1,0 +1,47 @@
+.lesson-container {
+  margin: 0 auto 3vh auto;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 24px;
+  text-align: center;
+  border: solid 1px black;
+}
+.lesson-example {
+  background: lightcoral;
+  flex-basis: 50%;
+}
+.lesson-description {
+  background: lightgreen;
+  flex-basis: 50%;
+}
+.lesson-code {
+  background: lightgoldenrodyellow;
+  flex-basis: 100%;
+}
+.lesson-title,
+.lesson-title-manual {
+  background: lightblue;
+  flex-basis: 100%;
+  font-size: 2em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.lesson-title-manual {
+  background: gray;
+}
+.slug {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+/* malko css magiq za zooma */
+img {
+  width: 40%;
+  transition: transform 0.2s;
+}
+img:hover {
+  transform: scale(1.7);
+}
